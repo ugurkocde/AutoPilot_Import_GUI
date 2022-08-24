@@ -360,7 +360,7 @@ function Write-Log
         $text
     )
 
-    "$text" | out-file "c:\Autopilot_Import_GUI_log.txt" -Append
+    "$text" | out-file "c:\Autopilot_Import_GUI_log.txt" -Append -Force
 }
 
 Write-Log -text "--- Start Logging: $(Get-TimeStamp) ---"
