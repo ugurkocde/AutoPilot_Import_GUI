@@ -163,7 +163,7 @@ function connectivity_check {
     # MDM Registration Test reachability
     # https://docs.microsoft.com/de-de/mem/intune/enrollment/windows-enroll
 
-    Write-Host -BackgroundColor DarkBlue "--- Checking connectivity for: Enterprise regitration  ---" 
+    Write-Host -BackgroundColor DarkBlue "--- Checking connectivity for: Enterprise registration  ---" 
 
     $MDM_registration = (Test-NetConnection enterpriseregistration.windows.net -Port 443 ).TcpTestSucceeded
     If($MDM_registration -eq "True"){
