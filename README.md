@@ -6,9 +6,13 @@
 
 The goal of this script is to help with the import process of a device into AutoPilot and simplifying this by using a User Interface (GUI). You will be able to select a Group Tag if you use them and the script will reboot after the deployment profile was successfully assigned. It will also help to troubleshoot possible Network requirements by running a connectivitiy check. This GUI uses the Powershell Script Get-WindowsAutoPilotInfo of Michael Niehaus.
 
+Blog post with additional infos: 
+
 Here is the link to [Powershell Gallery](https://www.powershellgallery.com/packages/Get-WindowsAutopilotImportGUI) where you will find the source code. This is the same as the .ps1 file you find in this repository.
 
 ## How it looks like
+
+![image](https://user-images.githubusercontent.com/43906965/186698117-b28364c2-7060-4211-a5ca-40c94afee97e.png)
 
 ## How to use the GUI
 
