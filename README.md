@@ -8,7 +8,7 @@ The goal of this script is to help with the import process of a device into Auto
 
 Blog post with additional infos: 
 
-Here is the link to [Powershell Gallery](https://www.powershellgallery.com/packages/Get-WindowsAutopilotImportGUI) where you will find the source code. This is the same as the .ps1 file you find in this repository.
+Here is the link to [Powershell Gallery](https://www.powershellgallery.com/packages/Get-WindowsAutopilotImportGUI) where you will find the source code. This is the Script which will be downloaded if you run "Install-Script Get-WindowsAutopilotImportGui" which is the same as the .ps1 file you find in this repository.
 
 ## How it looks like
 
@@ -25,8 +25,9 @@ Step by Step:
 3. Run "Set-Executionpolicy RemoteSigned"
 4. Run "Install-Script Get-WindowsAutopilotImportGUI"
 5. Run "Get-WindowsAutopilotImportGUI"
+6. Done. See below for Walkthrougs in three different scenarios.
 
-See below for Videos.
+The third step is particulary important to tell Powershell to trust the downloaded script from step four. The Executionpolicy in Powershell is a security layer to block malicious scripts. By default the executionpolicy is set to Restricted which we have to change to successfully run our script. There are multiple options but we will use RemoteSigned. This way Powershell still has the security layer by only trusting signed scripts which this is by downloading it from PowerShell Gallery. 
 
 ## Examples - Videos
 
