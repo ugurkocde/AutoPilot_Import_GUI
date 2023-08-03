@@ -12,7 +12,7 @@ Here is the link to [Powershell Gallery](https://www.powershellgallery.com/packa
 
 ## How it looks like
 
-![image](https://user-images.githubusercontent.com/43906965/186698117-b28364c2-7060-4211-a5ca-40c94afee97e.png)
+![grafik](https://github.com/ugurkocde/AutoPilot_Import_GUI/assets/43906965/a9e57af2-ac35-453b-a32f-1a6e6f414b78)
 
 ## How to use the GUI
 
